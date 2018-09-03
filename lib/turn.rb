@@ -16,6 +16,11 @@ def valid_move?(board,index)
   end
 end
 
+def input_to_index(str)
+  number = str.to_i
+  number = number - 1
+  return number
+end
 def move(board,index, token = 'X')
   board[index] = token
   
