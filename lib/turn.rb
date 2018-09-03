@@ -1,7 +1,9 @@
 def display_board
-  
-end
 
+end
+def valid_move?
+
+end
 def turn
-  
+
 end
